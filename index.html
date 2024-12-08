@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <!-- DaisyUI & Tailwindcss -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/3adb7007d7.js" crossorigin="anonymous"></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .font-family {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+    <!-- Costom Tailwindcss -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        btncolor: 'rgb(171, 239, 95)',
+                        footcolor: 'rgb(30, 30, 30)',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body class="font-family">
+
+    <!-- Header section -->
+    <header class="container mx-auto">
+
+    </header>
+
+    <!-- Main section -->
+    <main></main>
+
+    <!-- footer section -->
+    <footer class="bg-footcolor">
+        <div class="container mx-auto">
+            <div class=" text-center">
+                <div class="flex justify-center">
+                    <i class="bg-black p-2 rounded-full fa-solid fa-arrow-right -rotate-45 "></i>
+                    <h4>Rinterio</h4>
+                </div>
+                <p class="text- px-5 md:px-20 lg:px-48 xl:px-80 mt-4 mb-12">The barn house captivates with its blend of
+                    rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <div class="footer footer-center text-base-content rounded p-10">
+                <nav class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 gap-x-28 text-xl">
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                </nav>
+                <div class="flex bg-btncolor rounded-lg mb-12">
+                    <div class="text-black font-bold py-3 pl-4 pr-3">
+                        <button>Book Consult</button>
+                    </div>
+                    <div class="pr-2">
+                        <i class="bg-black p-2 rounded-full fa-solid fa-arrow-right -rotate-45 "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
